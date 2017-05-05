@@ -3,7 +3,7 @@
 
 def isPrime(n):
     i = 2
-    if n < 2:
+    if i <= n/2:
         return False
     while i < n:
         if n % i == 0:
